@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  redis:
+    container_name: "redis_for_microservices"
+    image: "redis:6.2-alpine"
+    ports:
+      - 6379:6379
